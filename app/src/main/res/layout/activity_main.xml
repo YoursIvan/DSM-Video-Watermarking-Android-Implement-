@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.FitWindowsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xmu.lxq.hello.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_emb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Embedding"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <Button
+        android:id="@+id/btn_ext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extraction"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+
+</android.support.v7.widget.FitWindowsLinearLayout>
